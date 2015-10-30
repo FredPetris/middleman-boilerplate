@@ -9128,25 +9128,28 @@ button.close {
 .fa-meanpath:before {
   content: ""; }
 
-/* line 1, /Users/Didi/code/FredPetris/middleman-boilerplate/source/stylesheets/layout/_footer.css.scss */
-html {
-  position: relative;
-  min-height: 100%; }
-
-/* line 6, /Users/Didi/code/FredPetris/middleman-boilerplate/source/stylesheets/layout/_footer.css.scss */
+/* line 10, /Users/Didi/code/FredPetris/middleman-boilerplate/source/stylesheets/layout/_footer.css.scss */
 .footer {
   color: white;
   background-color: #2D2422;
   padding: 20px;
-  position: absolute;
-  bottom: 0;
   width: 100%; }
 
-/* line 16, /Users/Didi/code/FredPetris/middleman-boilerplate/source/stylesheets/layout/_footer.css.scss */
+/* line 18, /Users/Didi/code/FredPetris/middleman-boilerplate/source/stylesheets/layout/_footer.css.scss */
 .footer i {
   color: white;
   font-size: 30px;
   margin: 10px; }
+
+/* line 25, /Users/Didi/code/FredPetris/middleman-boilerplate/source/stylesheets/layout/_footer.css.scss */
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column; }
+
+/* line 31, /Users/Didi/code/FredPetris/middleman-boilerplate/source/stylesheets/layout/_footer.css.scss */
+.site-content {
+  flex: 1; }
 
 /* line 1, /Users/Didi/code/FredPetris/middleman-boilerplate/source/stylesheets/layout/_navbar.css.scss */
 .navbar-wagon {
