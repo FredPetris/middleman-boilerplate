@@ -27,7 +27,9 @@
   <body class="<%= page_classes %>">
 
     <%= partial "navbar" %>
-    <%= yield %>
+    <div class="site-content">
+      <%= yield %>
+    </div>
     <%= partial "footer" %>
 
   </body>

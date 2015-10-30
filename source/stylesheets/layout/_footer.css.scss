@@ -1,15 +1,17 @@
-html {
-  position: relative;
-  min-height: 100%;
-}
+// html {
+//   position: relative;
+//   min-height: 100%;
+// }
+
+// body {
+//   padding-bottom: 160px;
+// }
 
 .footer {
   color: white;
   background-color: #2D2422;
   padding: 20px;
-  position: absolute;
-  bottom: 0;
-  width: 100%
+  width: 100%;
 }
 
 .footer {
@@ -18,4 +20,14 @@ html {
     font-size: 30px;
     margin: 10px;
   }
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.site-content {
+  flex: 1;
 }
