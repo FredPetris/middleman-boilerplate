@@ -1,0 +1,15 @@
+<div class="container team text-center">
+  <h1>Our team</h1>
+  <div class="row">
+    <ul class="list-inline">
+      <% data.team.each do |person| %>
+      <div class="team-person col-xs-4">
+        <li>
+          <img class="team-image" src="https://unsplash.it/200/200/?random">
+          <p><%= person.name %></p>
+        </li>
+      </div>
+      <% end %>
+    </ul>
+  </div>
+</div>

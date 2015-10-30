@@ -1,0 +1,10 @@
+- name: Jules
+  image: url('https://unsplash.it/200/300/?random')
+- name: Gaston
+  image: url('https://unsplash.it/200/300/?random')
+- name: Maud
+  image: url('https://unsplash.it/200/300/?random')
+- name: Gaspard
+  image: url('https://unsplash.it/200/300/?random')
+- name: Pauline
+  image: url('https://unsplash.it/200/300/?random')
