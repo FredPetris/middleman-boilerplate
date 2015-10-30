@@ -5,7 +5,8 @@
       <% data.team.each do |person| %>
       <div class="team-person col-xs-4">
         <li>
-          <img class="team-image" src="https://unsplash.it/200/200/?random">
+       <!--    <img class="team-image" src="https://unsplash.it/200/200/?random"> -->
+             <%= image_tag person.image, class: "img-circle img-responsive" %>
           <p><%= person.name %></p>
         </li>
       </div>
