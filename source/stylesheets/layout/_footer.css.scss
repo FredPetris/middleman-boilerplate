@@ -1,26 +1,16 @@
-// html {
-//   position: relative;
-//   min-height: 100%;
-// }
-
-// body {
-//   padding-bottom: 160px;
-// }
-
 .footer {
   color: white;
   background-color: #2D2422;
-  padding: 20px;
   width: 100%;
+  padding: 35 px 0;
 }
 
-.footer {
-  i {
+.footer i {
     color: white;
     font-size: 30px;
-    margin: 10px;
-  }
+    margin-left: 10px
 }
+
 
 body {
   display: flex;
