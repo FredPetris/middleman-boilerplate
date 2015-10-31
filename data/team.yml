@@ -1,10 +1,10 @@
 - name: Jules
-  image: https://unsplash.it/g/200/200/?gravity=east
+  image: https://unsplash.it/g/150/150/?gravity=east
 - name: Gaston
-  image: https://unsplash.it/g/200/200/?gravity=north
-- name: Maud
-  image: https://unsplash.it/g/200/200/?gravity=south
+  image: https://unsplash.it/g/150/150/?gravity=north
+- name: Marie
+  image: https://unsplash.it/g/150/150/?gravity=south
 - name: Gaspard
-  image: https://unsplash.it/g/200/200/?gravity=west
+  image: https://unsplash.it/g/150/150/?gravity=west
 - name: Pauline
-  image: https://unsplash.it/g/200/200/?gravity=center
+  image: https://unsplash.it/g/150/150/?gravity=center

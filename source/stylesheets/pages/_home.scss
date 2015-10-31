@@ -1,0 +1,31 @@
+body{
+  color: $gray-light;
+}
+
+.ffn-h1 {
+  font-family: $header-font;
+  font-size: 41px;
+}
+
+.ffn-h2 {
+  font-family: $header-font;
+  font-size: 17px;
+}
+
+.ffn-text-base {
+  font-family: $base-font;
+  font-size: $base-size;
+}
+
+.ffn-text-note {
+  font-family: $base-font;
+  font-size: 10px;
+}
+
+.ffn-bold {
+  font-weight: $weight-bold;
+}
+
+.ffn-light {
+  font-weight: $weight-light;
+}

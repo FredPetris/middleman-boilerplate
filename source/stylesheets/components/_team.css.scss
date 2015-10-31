@@ -1,18 +1,14 @@
 .team {
-    color: gray;
   h1 {
-    font-family: Raleway;
-    font-size: 17px;
-    font-weight: 700;
     margin: 30px auto;
   }
   &-image {
     height: 100px;
     box-shadow: 3px 3px 5px #888888;
     border-radius: 50%;
-    margin-bottom: 5px;
   }
   &-person {
+    font-family: $base-font;
     font-size: 20px;
     margin-bottom: 20px;
   }

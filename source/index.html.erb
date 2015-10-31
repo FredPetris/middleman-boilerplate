@@ -4,55 +4,57 @@ title: Le Wagon Middleman boilerplate
 <div class="banner text-center">
   <div class="banner-shadow">
     <div class="banner-text">
-      <h1 class="banner-title">Startup tools</h1>
-      <p class="banner-content">Very cool stuff, useful and smart</p>
+      <h1 class="ffn-h1 ffn-bold">Startup tools</h1>
+      <p class="ffn-text-base">Very cool stuff, useful and smart</p>
       <a href="#" class="btn btn-primary btn-lg">GET IT</a>
     </div>
   </div>
 </div>
 
-<div class="container">
-  <div class="row">
-    <div class="col-xs-12 col-sm-6 col-lg-3">
-      <h2 class="feature-title">
-        <%= image_tag "chat.png", class: "feature-icon" %>
-        Discuss best tools
-      </h2>
-      <p class="feature-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi numquam obcaecati voluptate! Nam velit quod, tempora dolore, saepe officiis explicabo nobis aliquid, a magnam at cumque perferendis esse amet sit.
-      </p>
-    </div>
+<div class="features">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-lg-3">
+        <h2 class="ffn-h2 ffn-bold">
+          <%= image_tag "chat.png", class: "feature-icon" %>
+          Discuss best tools
+        </h2>
+        <p class="ffn-text-base ffn-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi numquam obcaecati voluptate! Nam velit quod, tempora dolore, saepe officiis explicabo nobis aliquid, a magnam at cumque perferendis esse amet sit.
+        </p>
+      </div>
 
-    <div class="col-xs-12 col-sm-6 col-lg-3">
-      <h2 class="feature-title">
-        <%= image_tag "mobile.png", class: "feature-icon" %>
-        Always in sync
-      </h2>
-      <p class="feature-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi numquam obcaecati voluptate! Nam velit quod, tempora dolore, saepe officiis explicabo nobis aliquid, a magnam at cumque perferendis esse amet sit.
-      </p>
-    </div>
+      <div class="col-xs-12 col-sm-6 col-lg-3">
+        <h2 class="ffn-h2 ffn-bold">
+          <%= image_tag "mobile.png", class: "feature-icon" %>
+          Always in sync
+        </h2>
+        <p class="fn-text-base ffn-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi numquam obcaecati voluptate! Nam velit quod, tempora dolore, saepe officiis explicabo nobis aliquid, a magnam at cumque perferendis esse amet sit.
+        </p>
+      </div>
 
-    <div class="col-xs-12 col-sm-6 col-lg-3">
-      <h2 class="feature-title">
-        <%= image_tag "search.png", class: "feature-icon" %>
-        Powerful search
-      </h2>
-      <p class="feature-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi numquam obcaecati voluptate! Nam velit quod, tempora dolore, saepe officiis explicabo nobis aliquid, a magnam at cumque perferendis esse amet sit.
-      </p>
-    </div>
+      <div class="col-xs-12 col-sm-6 col-lg-3">
+        <h2 class="ffn-h2 ffn-bold">
+          <%= image_tag "search.png", class: "feature-icon" %>
+          Powerful search
+        </h2>
+        <p class="fn-text-base ffn-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi numquam obcaecati voluptate! Nam velit quod, tempora dolore, saepe officiis explicabo nobis aliquid, a magnam at cumque perferendis esse amet sit.
+        </p>
+      </div>
 
-    <div class="col-xs-12 col-sm-6 col-lg-3">
-      <h2 class="feature-title">
-        <%= image_tag "heart.png", class: "feature-icon" %>
-        Powerful search
-      </h2>
-      <p class="feature-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi numquam obcaecati voluptate! Nam velit quod, tempora dolore, saepe officiis explicabo nobis aliquid, a magnam at cumque perferendis esse amet sit.
-      </p>
+      <div class="col-xs-12 col-sm-6 col-lg-3">
+        <h2 class="ffn-h2 ffn-bold">
+          <%= image_tag "heart.png", class: "feature-icon" %>
+          Powerful search
+        </h2>
+        <p class="fn-text-base ffn-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi numquam obcaecati voluptate! Nam velit quod, tempora dolore, saepe officiis explicabo nobis aliquid, a magnam at cumque perferendis esse amet sit.
+        </p>
+      </div>
     </div>
   </div>
 </div>
 
 <div class="cards">
-  <h2 class="cards-title text-center">Most popular</h2>
+  <h2 class="ffn-h2 ffn-bold text-center">MOST POPULAR</h2>
 
   <div class="container">
 
@@ -60,14 +62,15 @@ title: Le Wagon Middleman boilerplate
       <div class="col-xs-12 col-sm-4">
         <div class="card" style="background: url('http://www.aa13.fr/wp-content/uploads/2015/05/hometown-photography-clement-balavoine-4-590x885.jpg') center center">
           <div class="card-shadow">
-            <div class="card-content">
-              <p class="card-votes">POPULAR</p>
-              <h3 class="card-user">Trello</h3>
-              <p class="card-text">Very cool stuff, useful and smart</p>
-              <div class="avatar"></div>
+            <a class="card-link" href="#">
+              <div class="card-content">
+                <p class="ffn-text-note">POPULAR</p>
+                <h3 class="card-user">Trello</h3>
+                <p class="card-text">Very cool stuff, useful and smart</p>
+                <div class="avatar"></div>
+              </div>
             </div>
-          </div>
-          <a class="card-link" href="#"></a>
+          </a>
         </div>
       </div>
 
@@ -76,7 +79,7 @@ title: Le Wagon Middleman boilerplate
           <a class="card-link" href="#">
             <div class="card-shadow">
               <div class="card-content">
-                <p class="card-votes">POPULAR</p>
+                <p class="ffn-text-note ffn-light">POPULAR</p>
                 <h3 class="card-user">Intercom</h3>
                 <p class="card-text">Very cool stuff, useful and smart</p>
                 <div class="avatar"></div>
@@ -91,7 +94,7 @@ title: Le Wagon Middleman boilerplate
           <a class="card-link" href="#">
             <div class="card-shadow">
               <div class="card-content">
-                <p class="card-votes">POPULAR</p>
+                <p class="ffn-text-note">POPULAR</p>
                 <h3 class="card-user">Mixpanel</h3>
                 <p class="card-text">Very cool stuff, useful and smart</p>
                 <div class="avatar"></div>
@@ -105,7 +108,7 @@ title: Le Wagon Middleman boilerplate
 </div>
 
 <div class="newsletter text-center">
-  <h2 class="newsletter-title">Get news from us</h2>
+  <h2 class="ffn-h2 ffn-bold">GET NEWS FROM US</h2>
   <p>Leave us your mail and get stylus news</p>
   <form class="form-inline">
     <input type="email" placeholder="bob@gmail.com" class="form-control">

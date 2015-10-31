@@ -1,30 +1,14 @@
 .banner {
   background: url(https://unsplash.it/g/1000/700/?random) center center;
   background-size: cover;
-/*  position: relative;*/
+  color: white;
 }
 
 .banner-shadow {
   background-image: linear-gradient(-225deg, rgba(0,0,0,0.7) 20%, rgba(200,200,200,0.5) 100%);
   background-size: cover;
-/*  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;*/
 }
 
 .banner-text {
-  color: white;
   padding: 150px;
-}
-
-.banner-title {
-  font-family: Raleway;
-  font-size: 35px;
-  font-weight: 700;
-}
-
-.banner-content {
-  font-size: 18px;
 }
