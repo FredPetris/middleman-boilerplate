@@ -2,13 +2,24 @@
   background: url(https://unsplash.it/g/1000/700/?random) center center;
   background-size: cover;
   color: white;
+  width: 100%;
+  padding: 250px 0 200px 0;
+  position: relative;
+  z-index: 0;
 }
 
 .banner-shadow {
-  background-image: linear-gradient(-225deg, rgba(0,0,0,0.7) 20%, rgba(200,200,200,0.5) 100%);
-  background-size: cover;
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.3) 20%, rgba(200,200,200,0.5) 100%);
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
 }
 
 .banner-text {
-  padding: 150px;
+  position: relative;
+  z-index: 2;
 }
